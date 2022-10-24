@@ -1,0 +1,57 @@
+
+.content{
+    width: 1200px;
+    background: linear-gradient(to right, rgb(161, 56, 56) , rgb(109, 109, 168));
+    text-align: center;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+}
+.recruit-intro{
+    padding: 70px 15px;
+}
+.recruit-intro h1{
+    font-family: 'Baron Neue';
+}
+.recruit-intro p{
+    width: 100%;
+    
+}
+.recruit-intro h1 span{
+    color: rgb(229, 121, 5);
+}
+.recruit-intro p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.recruit-contact{
+    width: 966px;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+}
+.recruit-contact a,
+.recruit-contact span{
+    color: #ff3f34;
+}
+.recruit-contact .img img{
+    width: 95%;
+    height: auto;
+    padding: 20px 0;
+    box-shadow: 0 16px 24px rgb(0 0 0 / 6%), 0 2px 6px rgb(0 0 0 / 4%), 0 0 1px rgb(0 0 0 / 4%);
+}
+@media only screen and (max-width : 768px) and (min-width: 328px){
+    
+}
+@media only screen and (min-width: 768px){
+    
+}
+@media only screen and (min-width: 992px){
+    
+}
+@media only screen and (min-width: 1200px){
+   
+}
