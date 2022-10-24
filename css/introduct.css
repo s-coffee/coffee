@@ -232,7 +232,7 @@
     width: 400px;
     height: auto;
 }
-@media only screen and (max-width : 328px) and (min-width: 100px){
+@media only screen and (max-width : 329px) and (min-width: 101px){
     .content{
         margin: 0 auto;
     }
@@ -317,7 +317,7 @@
         width: 100%;
     }
 }
-@media only screen and (max-width : 768px) and (min-width: 328px){
+@media only screen and (max-width : 769px) and (min-width: 329px){
     .content{
         margin: 0 auto;
     }
@@ -399,7 +399,7 @@
         margin-top: 100px;
     }
 }
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 769px){
     .content{
         margin: 0 auto;
     }
@@ -471,7 +471,7 @@
         margin-left: 33px;
     } 
 }
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 993px){
     .container1{
         width: 960px;
     }
