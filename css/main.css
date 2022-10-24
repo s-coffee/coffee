@@ -137,7 +137,10 @@ body{
     /*MOBILE*/
     @media(max-width:450px) {
     .main__ten{
-    font-size:1.2rem;
+    font-size:1.1rem;
+    }
+    p.main__gia{
+        font-size: 16px;
     }
     .item{
     margin-top:20px;
