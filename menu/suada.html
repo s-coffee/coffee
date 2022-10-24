@@ -11,288 +11,30 @@
     <link rel="stylesheet" href="../font/stylesheet.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/subpages.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <style>
-            body{
-            margin:0px;
-            background-color: rgb(247,236,222);
-        }  
-        img {
-            width:100%;
-            height:auto;
-        }
-        .content__head{
-            font-size:33px;
-            margin-bottom: 18px;
-        }
-        .content__gia{
-            line-height: 0.75;
-            font-size: 26px;
-            color: #E57905;
-            font-weight: 600;
-            margin-right: 37px;
-        }
-        .content__style{
-            font-weight: 550;
-            font-size: 16px;
-            line-height: 22px;
-            margin-top: 40px;
-            margin-bottom: 15px
-        }
-        .size1, .size2, .size3,         .content__topping1,.content__topping2,
-        .content__topping3,.content__topping4{
-            display: inline-block;
-            transition: all 0.3s;
-            border-radius:4px;
-            cursor: pointer; 
-            text-align: center;
-            border: 1.55px solid rgb(10, 192, 10);
-            font-size: 14px;
-            height: 40px;
-            line-height: 40px;
-            font-weight: 400;
-            font-size: 16px;
-        }
-        .size-after{
-            display: inline-block;
-            transition: all 0.3s;
-            border-radius:4px;
-            cursor: pointer; 
-            text-align: center;
-            border: 1.55px solid #E57905;
-            font-size: 14px;
-            height: 40px;
-            line-height: 40px;
-            font-weight: 400;
-            font-size: 16px;
-            background-color: #E57905;
-            color:aliceblue;
-        }
-        .size1:hover,.size2:hover,.size3:hover,
-         .content__topping1:hover, .content__topping2:hover,
-          .content__topping3:hover, .content__topping4:hover{
-            background-color: #E57905;
-            color:aliceblue;
-            border: 2px solid #E57905;
-        }
-        .content__topping1,.content__topping2,
-        .content__topping3,.content__topping4, .size1, .size2, .size3{
-            margin-bottom:15px;
-            display: inline-block;
-            padding:0 10px;
-            margin-right:15px;
-        }
-        .content__size{
-            height:50px;
-        }
-        .content__size1:checked~.size1, .content__size2:checked~.size2,  .content__size3:checked~.size3,         
-        .topping-1:checked~.content__topping1, .topping-2:checked~.content__topping2
-        ,.topping-3:checked~.content__topping3,.topping-4:checked~.content__topping4{
-                background-color: #E57905;
-                color:#fff;
-                border: 0;
-            }
-            .booking:checked~.nav__overlay{
-                display: block;
-            }
-    .nav__overlay{
-    display: none;
-    position: fixed;
-    top:0;
-    bottom: 0;
-    left:0;
-    right:0;
-    background-color: rgba(0, 0,0 ,0.3);
-    animation: fadeIn linear 0.2s;
-    }
-        .display-book{
-            display: none;
-            background-color: #fff;
-            width:600px;
-            max-width:100%;
-            height:350px;
-            border-radius: 10px;
-            border: 0;
-            position: absolute;
-           top:50%;
-           left:50%;
-           transform: translate(-50%, -50%);
-           text-align: center;
-           box-shadow: 0 0 10px 5px rgba(197, 192, 192, 0.5);
-        }
-        .dislay-booking{
-           border: 0;
-           font-size: 16px;
-           padding: 10px;
-           border-radius: 3px;
-           width:90%;
-           margin-top:20px;
-           box-shadow: 0 4px 10px 3px rgba(181, 176, 176, 0.5);
-           color:rgba(0,0, 0, 0.5);
-        }
-        #book-ten{
-            margin-top:40px;
-        }
-        .button-book{
-            width:90%;
-            margin:0 auto;
-        }
-        .booking:checked~.display-book{
-            display: block;
-        }
-        .booking:checked~.display-booking{
-            display: inline-block;
-        }
-        .button-book-b, .button-book-l{
-            font-size: 18px;
-            padding:10px;
-            border: 0;
-            color:#fff;
-            background-color: #E57905;
-            border-radius: 5px;
-            margin:30px 10px 0 0;
-        }
-        .button-book-b:hover, .button-book-l:hover{
-            background-color: rgb(10, 192, 10);
-        }
-
-        .content__book{
-            display: block;
-            margin-top:30px;
-            width:100%;
-            height:48px;
-            border: 1px solid #E57905;
-            background-color: #E57905;
-            border-radius:5px;
-            text-align: center;
-            line-height: 48px;
-        }
-        .content__book:hover{
-            background-color: rgb(10, 192, 10);
-            border: 1px solid rgb(10, 192, 10);
-        }
-        .book{
-            display: block;
-            list-style-type: none;
-            color:aliceblue;
-            text-decoration: none;
-            font-size:20px;
-        }
-        textarea{
-            height:80px;
-        }
-        .content__product{
-            border-top: 1px solid rgb(10, 192, 10);
-            border-bottom: 1px solid rgb(10, 192, 10);
-            font-weight: 600;
-            font-size:22px;
-            padding:30px 0;
-            margin: 50px 16px 35px 16px;
-        }
-        .content__product-p{
-            font-size:20px;
-            margin-top:15px;
-            font-weight: 400;
-
-        }
-        .content__nav{
-            display: inline-block;
-            margin-top:88px;
-        }
-        .content__nav a{
-            text-decoration: none;
-            display: inline-block;
-            font-size:20px;
-            padding-bottom: 30px;
-            color:#000;
-            font-weight: 600;
-        }
-        .content__nav a:hover{
-            color:#E57905;
-        }
-        a.content__nav-caphe{
-            color:#000;
-            opacity: 0.6;
-        }
-        
-        @media(min-width:730px) and (max-width:980px) {
-            .content__style{
-                margin-top:15px;
-            }
-            .size1, .size2, .size3{
-                font-size: 13px;
-            }
-            .content__topping1,.content__topping2,.content__topping3,.content__topping4{
-                font-size: 16px;
-                margin-bottom: 10px;
-                border-radius: 3px;
-            }
-            .size1, .size2, .size3 , .content__topping1,.content__topping2,.content__topping3,.content__topping4{
-                height:30px;
-                line-height: 30px;
-            }
-            .size1, .size2, .size3{
-                margin-bottom: 0;
-            }
-            .content__book{
-                margin-top:0;
-            }
-            .content__head {
-                font-size: 23px;
-                margin-bottom: 10px;
-            }
-            .content__gia{
-                font-size:21px;
-            }
-            .content__style{
-                margin-top:8px;
-                margin-bottom: 5px;
-            }
-            .content__book {
-                height:40px;
-                line-height:40px;
-                margin-top:5px;
-            }
-        }
-        @media(max-width:725px) {
-            .content__product{
-                margin-left:16px;
-                margin-right: 16px;
-            }
-        }
-        @media(max-width:975px) {
-            .content__nav a{
-                margin-left:16px;
-                margin-right:16px;
-            }
-            img {
-            max-width:100%;
-            height:auto;
-        }
-        }
-    </style>
 </head>
 <body>
 <!--NAV-->
 <div class="header">
-    <div class="header__nav-scoffee mobile"><a href="main.html">S.COFFEE</a></div>
+    <div class="header__nav-scoffee mobile"><a href="../main.html">S.COFFEE</a></div>
     <div class="grid wide">
         <nav class="header__navbar-pc">
             <ul class="header__navbar-list">
                 <li class="header__navbar-item">
                     <div class="header__nav-scoffee pc-tablet">S.COFFEE</div>
                 </li>
-                <li class="header__navbar-item"><a class="header__navbar-item-link" href="main.html">Trang chủ</a></li>
+                <li class="header__navbar-item"><a class="header__navbar-item-link" href="../main.html">Trang chủ</a></li>
                 <li class="header__navbar-item">
-                    <a class="header__navbar-item-link  active__navbar"  href="thucdon.html">Thực đơn</a>
+                    <a class="header__navbar-item-link  active__navbar"  href="../thucdon.html">Thực đơn</a>
                     <ul class="sub-nav">
-                        <li class="sub-nav-list"><a href="thucdon.html">Tất cả</a></li>
-                        <li class="sub-nav-list"><a href="caphe.html">Cà phê</a></li>
-                        <li class="sub-nav-list"><a href="banh-snack.html">Bánh & Snack</a></li>
+                        <li class="sub-nav-list"><a href="../thucdon.html">Tất cả</a></li>
+                        <li class="sub-nav-list"><a href="../caphe.html">Cà phê</a></li>
+                        <li class="sub-nav-list"><a href="../banh-snack.html">Bánh & Snack</a></li>
                     </ul>
                 </li>
-                <li class="header__navbar-item"><a class="header__navbar-item-link"  href="introduct.html">Thông tin</a></li>
-                <li class="header__navbar-item"><a class="header__navbar-item-link"  href="book.html">Đặt bàn</a></li>
+                <li class="header__navbar-item"><a class="header__navbar-item-link"  href="../introduct.html">Thông tin</a></li>
+                <li class="header__navbar-item"><a class="header__navbar-item-link"  href="../book.html">Đặt bàn</a></li>
                 <li class="header__navbar-item" >  
                     <label for="nav-mobile-input" class="nav__bar-btn">
                         <i class="fa-solid fa-bars"></i><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
@@ -307,10 +49,10 @@
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"/></svg>
             </label>
             <ul class="header__navbar-mobile-list">
-                <li class="header__navbar-mobile-item"><a class="header__navbar-mobile-item-link" href="main.html">Trang chủ</a></li>
-                <li class="header__navbar-mobile-item"><a class="header__navbar-mobile-item-link"  href="thucdon.html">Thực đơn</a></li>
-                <li class="header__navbar-mobile-item"><a class="header__navbar-mobile-item-link"  href="introduct.html">Thông tin</a></li>
-                <li class="header__navbar-mobile-item"><a class="header__navbar-mobile-item-link"  href="book.html">Đặt bàn</a></li>
+                <li class="header__navbar-mobile-item"><a class="header__navbar-mobile-item-link" href="../main.html">Trang chủ</a></li>
+                <li class="header__navbar-mobile-item"><a class="header__navbar-mobile-item-link"  href="../thucdon.html">Thực đơn</a></li>
+                <li class="header__navbar-mobile-item"><a class="header__navbar-mobile-item-link"  href="../introduct.html">Thông tin</a></li>
+                <li class="header__navbar-mobile-item"><a class="header__navbar-mobile-item-link"  href="../book.html">Đặt bàn</a></li>
             </ul>
         </nav>      
     </div>
@@ -319,13 +61,13 @@
 <!--CONTENT-->
     <div class="grid wide content">
         <div class="content__nav">
-            <a href="/thucdon.html">Thực đơn / </a>
-            <a href="/caphe.html">Cà phê / </a>
+            <a href="../thucdon.html">Thực đơn / </a>
+            <a href="../caphe.html">Cà phê / </a>
             <a class="content__nav-caphe">Cà Phê Sữa Đá</a>
         </div>
         <div class="row content__top">
             <div class="col l-6 m-6 c-12">
-                <div class="content__images"><img src="../images/loaicaphe/i3.png" alt="Cà phê sữa đá"></div>
+                <div class="content__images"><img src="../images/main-images/suada.jpg" alt="Cà phê sữa đá"></div>
             </div>
             <div class="col l-6 m-6 c-12">
                 <h1 class="content__head">Cà Phê Sữa Đá</h1>
