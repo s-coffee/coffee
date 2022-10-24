@@ -6,7 +6,8 @@ footer{
     position: relative;
     bottom: 0;
     height: 100px;
-    background-color: rgb(165,42,42);
+    background-color: rgb(97, 22, 22);
+    opacity: 0.9;
     width: 100%;
 }
 .social{
@@ -23,7 +24,7 @@ footer{
     align-items: center;
 }
 .fb{
-    color: rgb(165,42,42);
+    color: rgb(97, 22, 22);
     padding: 7px 13px;
     background-color: #fff;
 }
@@ -33,7 +34,7 @@ footer{
     align-items: center;
 }
 .ins{
-    color: rgb(165,42,42);
+    color: rgb(97, 22, 22);
     padding: 7px 10px;
     background-color: #fff;
 }
@@ -43,7 +44,7 @@ footer{
     align-items: center;
 }
 .ytb{
-    color: rgb(165,42,42);
+    color: rgb(97, 22, 22);
     padding: 7px 10px;
     background-color: #fff;
 }
