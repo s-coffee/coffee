@@ -3,6 +3,8 @@ a{
     text-decoration: none;
 }
 footer{
+    position: relative;
+    bottom: 0;
     height: 100px;
     background-color: rgb(165,42,42);
     width: 100%;
