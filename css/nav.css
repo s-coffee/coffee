@@ -1,8 +1,74 @@
-*{
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',sans-serif;
     box-sizing: border-box;
-    margin:0;
-    padding:0;
+    background-color: rgb(247,236,222);
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family:sans-serif;
+}
+/* FONT LOGO */
+@font-face {
+    font-family: 'Baron Neue';
+    src: url('../font/BaronNeueBoldItalic.woff2') format('woff2'),
+        url('../font/BaronNeueBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baron Neue';
+    src: url('../font/BaronNeueBlack.woff2') format('woff2'),
+        url('../font/BaronNeueBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baron Neue';
+    src: url('../font/BaronNeueBlackItalic.woff2') format('woff2'),
+        url('../font/BaronNeueBlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baron Neue';
+    src: url('../font/BaronNeueItalic.woff2') format('woff2'),
+        url('../font/BaronNeueItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baron Neue';
+    src: url('../font/BaronNeue.woff2') format('woff2'),
+        url('../font/BaronNeue.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baron Neue';
+    src: url('../font/BaronNeueBold.woff2') format('woff2'),
+        url('../font/BaronNeueBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* BREAK POINT*/
     
 .header{

@@ -114,7 +114,7 @@ a.sendmail:hover{
 @media screen and (max-width:1024px) {
     footer{
         height: 200px;
-        background-color: rgb(165,42,42);
+        background-color: rgb(97, 22, 22);
     }
     .footer{
         width: 100%;
@@ -154,7 +154,7 @@ a.sendmail:hover{
 @media screen and (max-width:1024px) and (min-width: 670px) {
     footer{
         height: 200px;
-        background-color: rgb(165,42,42);
+        background-color: rgb(97, 22, 22);
     }
     .footer{
         width: 100%;
