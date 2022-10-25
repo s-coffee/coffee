@@ -1,0 +1,140 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.content__header-h1{
+    margin-bottom: 60px;
+}
+p{
+    line-height: 28px;
+    font-size: 18px;
+    padding-top:10px;
+}
+.intro-content h1{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+.content__font{
+    font-weight: 550;
+    margin-bottom:-10px;
+}
+.center-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro-content .intro-h{
+    font-family: "Baron Neue";
+}
+.row{
+    margin-left:8px;
+    margin-right:8px;
+}
+img{
+    width:100%;
+    height:auto;
+}
+.container-block{
+    justify-content: space-around;
+    align-items: center;
+}
+.subtitle{
+    color: #febf3e;
+    font-family: 'Baron Neue';
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.sub-title p{
+    color: #fff;
+}
+.next {
+    max-width: max-content;
+    padding: 3px 50px 3px 50px;
+    font-size: 20px;
+    border: 1px solid #febf3e ;
+    border-radius: 10px;
+    margin-top:15px;
+}
+.next:hover{
+    background-color: #febf3e ;
+}
+.content__bottom {
+    margin-bottom: 20px;
+}
+.next a{
+    color:#fff;
+}
+div.img img{
+    margin-top:100px;
+}
+.item{
+    width:100%;
+    margin-bottom: 40px;
+    margin-left:-5px;
+    margin-right:-5px;
+}
+.customer-infor{
+    text-align: justify;
+}
+.more p a{
+    color: #febf3e;
+    font-size: 20px;
+}
+p.vechungtoi{
+    color: #febf3e;
+    font-size: 25px;
+    font-style: italic;
+}
+.question{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: 0 auto;
+}
+.answer p{
+    color: #fff;
+}
+.question h1{
+    color: #febf3e;
+}
+.content__link-next:hover{
+    color:#fff;
+}
+.last{
+    margin-top:60px;
+}
+@media (min-width:975px) and (max-width:1240px){
+    p{
+        line-height: 25px;
+        font-size: 18px;
+        padding-top:5px;
+    }
+    .content__font{
+        margin-bottom: -5px;
+    }
+    .subtitle{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .vechungtoi{
+        font-size: 22px;
+    }
+}
+@media (min-width:740px) and (max-width:974px) {
+    .intro-content h1{
+        font-size: 30px;
+    }
+}
+@media(max-width:739px) {
+    .intro-content h1{
+        font-size: 26px;
+    }
+    p{
+        line-height: 25px;
+        font-size: 17px;
+        padding-top:5px;
+    }
+}
