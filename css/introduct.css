@@ -36,6 +36,9 @@ img{
     width:100%;
     height:auto;
 }
+.images{
+    border-radius:8px;
+}
 .container-block{
     justify-content: space-around;
     align-items: center;
