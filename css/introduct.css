@@ -222,10 +222,12 @@ img{
         margin-right: 0px;
     }
     .img3{
-        width: 80%;
+        display: flex;
+        width: 100%;
+        justify-content: center;
     }
     .img3 img{
-        max-width: 100%;
+        max-width: 80%;
     }
     .question{
         max-width: 85%;
