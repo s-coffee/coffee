@@ -194,6 +194,7 @@ img{
         margin-bottom: 50px;
     }
     .infor-us{
+        max-width: 70%;
         margin-right: 0px;
     }
     .img1{
@@ -213,10 +214,12 @@ img{
         font-size: 20px;
     }
     .customer-infor{
+        max-width: 70%;
         margin-left: 0px;
     }    
     .recruit-infor{
-        margin-right: 40px;
+        max-width: 70%;
+        margin-right: 0px;
     }
     .img3{
         width: 80%;
