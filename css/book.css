@@ -103,6 +103,12 @@ img{
     }
 }
 @media(max-width:739px) {
+    .book__content-scoffee{
+        margin-top:-27px;
+    }
+    .header-scoffee{
+        display: none;
+    }
     .content__margin-top{
         margin-top:-10px;
     }
