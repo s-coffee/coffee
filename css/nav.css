@@ -179,6 +179,9 @@ a.header__navbar-item-link{
 }
 /*TABLET & MOBILE*/
 @media(max-width:1024px) {
+    .header{
+        align-items: center;
+    }
     a.header__navbar-item-link{
         visibility: hidden;
     }
@@ -190,14 +193,15 @@ a.header__navbar-item-link{
         text-align: center;
         position: absolute;
         text-shadow: 4px 4px 5px rgb(92, 8, 8);
-        padding:13px 0;
-        padding-top: 10px;
-        font-size:1.9rem;
+        padding: 0;
+        padding-bottom: 8px;
         margin-right: 0px;
+    }
+    div.header__nav-scoffee.mobile{
+        font-family: 'Baron Neue';
     }
     div.header__nav-scoffee.mobile a{
         color: #fff;
-        font-family: 'Baron Neue';
     }
     .nav__bar-btn{
         display: inline-block;
