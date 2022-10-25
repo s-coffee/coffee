@@ -56,7 +56,7 @@ img{
 }
 .content__margin-top{
     margin-top:-70px;
-    margin-bottom: 130px;
+    margin-bottom: 110px;
 }
 .book__content-header{
     margin-bottom: 10px;
@@ -94,15 +94,28 @@ img{
 }
 @media (min-width:975px) and (max-width:1240px){
     .content__margin-top{
-        margin-top:-155px;
+        margin-top:-200px;
+    }
+    .header-scoffee{
+        display: none;
     }
 }
 @media (min-width:740px) and (max-width:974px) {
     .content__margin-top{
-        margin-top:-225px;
+        margin-top:-275px;
+        margin-bottom: 190px;
+    }
+    .header-scoffee{
+        display: none;
     }
 }
 @media(max-width:739px) {
+    .book__content-scoffee{
+        margin-top:-27px;
+    }
+    .header-scoffee{
+        display: none;
+    }
     .content__margin-top{
         margin-top:-10px;
     }
