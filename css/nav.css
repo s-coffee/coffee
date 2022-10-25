@@ -63,11 +63,7 @@ body{
     font-style: normal;
     font-display: swap;
 }
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+
 
 /* BREAK POINT*/
     
