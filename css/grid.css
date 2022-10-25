@@ -12,8 +12,8 @@
     flex-wrap:wrap;
 }
 .row.no-gutter{
-    margin-left:-8px;
-    margin-right:-8px;
+    margin-left:-16px;
+    margin-right:-16px;
 }
 .col{
     padding-right:8px;
@@ -340,8 +340,8 @@
         width: 930px;
     }
     .wide .row{
-        margin-left:-15px;
-        margin-right:-15px;
+        margin-left:5px;
+        margin-right:5px;
     }
     .wide .col{
         padding-left:15px;
