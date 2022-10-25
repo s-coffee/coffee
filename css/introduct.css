@@ -54,11 +54,14 @@ img{
 }
 .next {
     max-width: max-content;
-    padding: 3px 50px 3px 50px;
+    padding: 7px 50px 7px 50px;
     font-size: 20px;
     border: 1px solid #febf3e ;
-    border-radius: 10px;
-    margin-top:15px;
+    border-radius: 7px;
+    margin-top:25px;
+}
+.content__end{
+    margin-bottom: 20px;
 }
 .next:hover{
     background-color: #febf3e ;
