@@ -79,7 +79,7 @@ img {
 ,.topping-3:checked~.content__topping3,.topping-4:checked~.content__topping4{
         background-color: #E57905;
         color:#fff;
-        border:0;
+        border:1.5px solid #E57905;
     }
     .booking:checked~.nav__overlay{
         display: block;
