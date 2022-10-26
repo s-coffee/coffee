@@ -32,7 +32,7 @@ p{
     font-family: "Baron Neue";
 }
 .row{
-    margin-left:8px;
+    margin-left:16px;
     margin-right:8px;
 }
 img{
@@ -132,10 +132,7 @@ p.vechungtoi{
         font-size: 22px;
     }
 }
-@media (min-width:740px) and (max-width:974px) {
-    .intro-content h1{
-        font-size: 30px;
-    }
+@media(max-width:974px){
     .content__hidden{
         display: block;
     }
@@ -143,13 +140,12 @@ p.vechungtoi{
         display: none;
     }
 }
+@media (min-width:740px) and (max-width:974px) {
+    .intro-content h1{
+        font-size: 30px;
+    }
+}
 @media(max-width:739px) {
-    .content__hidden{
-        display: block;
-    }
-    .content__hidden-top{
-        display: none;
-    }
     .intro-content h1{
         font-size: 26px;
     }
