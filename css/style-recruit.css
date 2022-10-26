@@ -1,0 +1,264 @@
+
+.content{
+    background: linear-gradient(to right, rgb(161, 56, 56) , rgb(109, 109, 168));
+    text-align: center;
+    margin: 0 auto;
+    width: auto;
+}
+.recruit-intro{
+    padding: 70px 15px;
+}
+.recruit-intro h1{
+    font-family: 'Baron Neue';
+}
+.recruit-intro p{
+    width: 100%;
+    color: #fff;
+}
+.recruit-intro h1 span{
+    color: rgb(229, 121, 5);
+}
+.recruit-intro p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.container-outstanding h2{
+    font-size: 35px;
+    color: #febf3e;
+}
+.outstanding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+.main-job{
+    max-width: 280px;
+    width: 280px;
+    padding: 10px 16px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.main-job p a{
+    color: #f8c291;
+}
+.m3{
+    margin: 1rem!important;
+}
+.container2{
+    padding: 100px;
+}
+.container-jobs{
+    display: flex;
+    max-width: 928px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.all-job .img img{
+    object-fit: cover;
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+.img img{
+    width: 100%;
+    height: 264px;
+    object-fit: contain;
+}
+.all-job{
+    margin: 0 auto;
+    align-items: center;
+    /* justify-content: center; */
+    height: 612px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: linear-gradient(to bottom,#fa983a , #f8c291 );
+    box-shadow: 0 16px 24px rgb(0 0 0 / 6%), 0 2px 6px rgb(0 0 0 / 4%), 0 0 1px rgb(0 0 0 / 4%);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.job-content{
+    padding: 16px;
+    position: relative;
+    flex: 1;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    top: 0px;
+}
+.job-content li{
+    margin-top: 15px;
+    font-size: 17px;
+}
+.more{
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 10px 25px;
+    margin-bottom: 16px;
+    color: #fff;
+}
+.more a{
+    color: #fff;
+}
+.more a:hover{
+    color: rgb(229, 121, 5);
+}
+@media only screen and (max-width : 328px) and (min-width: 100px){
+    .outstanding{
+        display: flex;
+        margin-left: auto;
+    }
+    content{
+        margin: 0 auto;
+        width: auto;
+    }
+    .recruit-intro{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .container2{
+        width: 100%;
+        padding: 0 0;
+    }
+    .container-jobs{
+        display: block;
+        width: 100%;
+    }
+    .all-job{
+        width: 400px;
+        max-width: 100%;
+    }
+    .main-job{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width : 768px) and (min-width: 328px){
+    .outstanding{
+        display: flex;
+        margin-left: auto;
+    }
+    content{
+        margin: 0 auto;
+        width: auto;
+    }
+    .recruit-intro{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .container2{
+        width: 100%;
+        padding: 0 0;
+    }
+    .container-jobs{
+        display: block;
+        width: 100%;
+    }
+    .all-job{
+        width: 400px;
+        max-width: 100%;
+    }
+    .main-job{
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .outstanding{
+        display: flex;
+        margin-left: auto;
+    }
+    content{
+        margin: 0 auto;
+        width: auto;
+    }
+    .recruit-intro{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .container2{
+        width: 100%;
+        padding: 0 0;
+    }
+    .container-jobs{
+        display: flex;
+        width: 100%;
+        flex: 1;
+    }
+    .all-job{
+        
+    }
+    .main-job{
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width: 992px){
+    .outstanding{
+        display: flex;
+        margin-left: auto;
+    }
+    content{
+        margin: 0 auto;
+        width: auto;
+    }
+    .recruit-intro{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .container2{
+        width: 100%;
+        padding: 0 0;
+    }
+    .container-jobs{
+        display: flex;
+        width: 100%;
+        flex: 1;
+    }
+    .all-job{
+        
+    }
+    .main-job{
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .outstanding{
+        display: flex;
+        margin-left: auto;
+    }
+    content{
+        margin: 0 auto;
+        width: auto;
+    }
+    .recruit-intro{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .container2{
+        width: 100%;
+        padding: 0 0;
+    }
+    .container-jobs{
+        display: flex;
+        width: 100%;
+        flex: 1;
+    }
+    .all-job{
+        
+    }
+    .main-job{
+        font-size: 16px;
+    }
+}

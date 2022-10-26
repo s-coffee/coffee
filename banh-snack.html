@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực đơn - S.Coffee</title>
+    <link rel="icon" type="image/x-icon" href="images/nav-images/bieutuong.png">
+    <link rel="stylesheet" href="./css/thucdon.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./font-css/themify font/themify-icons.css">
+    <script src="https://kit.fontawesome.com/b6ffadb76e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./font-css/awe-some css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/logo-font.css">
+</head>
+<body>
+    <!-- THANH ĐIỀU HƯỚNG -->
+    <div class="header">
+        <div class="header__nav-scoffee mobile"><a href="main.html">S.COFFEE</a></div>
+        <div class="grid wide">
+            <nav class="header__navbar-pc">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item">
+                        <div class="header__nav-scoffee pc-tablet">S.COFFEE</div>
+                    </li>
+                    <li class="header__navbar-item"><a class="header__navbar-item-link" href="main.html">Trang chủ</a></li>
+                    <li class="header__navbar-item">
+                        <a class="header__navbar-item-link  active__navbar"  href="thucdon.html">Thực đơn</a>
+                        <ul class="sub-nav">
+                            <li class="sub-nav-list"><a href="thucdon.html">Tất cả</a></li>
+                            <li class="sub-nav-list"><a href="caphe.html">Cà phê</a></li>
+                            <li class="sub-nav-list"><a href="banh-snack.html">Bánh & Snack</a></li>
+                        </ul>
+                    </li>
+                    <li class="header__navbar-item"><a class="header__navbar-item-link"  href="introduct.html">Thông tin</a></li>
+                    <li class="header__navbar-item"><a class="header__navbar-item-link"  href="book.html">Đặt bàn</a></li>
+                    <li class="header__navbar-item" >  
+                        <label for="nav-mobile-input" class="nav__bar-btn">
+                            <i class="fa-solid fa-bars"></i><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                        </label>     
+                    </li>
+                    
+                </ul>
+            </nav>
+            <input type="checkbox" name="" hidden class="nav-input" id="nav-mobile-input">
+            <label for="nav-mobile-input" class="nav__overlay"></label>
+            <nav class="header__navbar-mobile">
+                <label for="nav-mobile-input" class="nav__mobile-closed">                                           
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"/></svg>
+                </label>
+                <ul class="header__navbar-mobile-list">
+                    <li class="header__navbar-mobile-item"><a class="header__navbar-mobile-item-link" href="main.html">Trang chủ</a></li>
+                    <li class="header__navbar-mobile-item"><a class="header__navbar-mobile-item-link"  href="thucdon.html">Thực đơn</a></li>
+                    <li class="header__navbar-mobile-item"><a class="header__navbar-mobile-item-link"  href="introduct.html">Thông tin</a></li>
+                    <li class="header__navbar-mobile-item"><a class="header__navbar-mobile-item-link"  href="book.html">Đặt bàn</a></li>
+                </ul>
+            </nav>      
+        </div>
+        </div> 
+    <!-- END NAV -->
+    <!-- CONTAINER -->
+    <div class="collection">
+        <div class="grid wide">
+            <ul class="sidebar">
+                <li class="title-sidebar"><a href="thucdon.html">Tất cả</a></li>
+                <li class="title-sidebar"><a href="caphe.html">Cà phê</a></li>
+                <li class="title-sidebar icoin-style"><a class="title-sidebar" href="banh-snack.html">Bánh & snack</a></li>
+            </ul>
+            <div class="row">
+                <div class="wrap-sidebar-mobile">
+                    <select name="title-sidebar-mobile" id="title-sidebar-mobile" onchange="window.location.href=this.value">
+                        <option value="thucdon.html">Tất cả</option>
+                        <option value="caphe.html">Cà phê</option>
+                        <option value="banh-snack.html">Bánh & Snack</option>
+                    </select>
+                </div>
+                
+                <!-- BEGIN: Product -->
+                <div class="product-wrap">
+                   <!-- BEGIN: Bánh -->
+                   <div class="headline">
+                    <h3>Bánh</h3>
+                            </div>
+                            <ul class="product">
+                    <li>
+                        <div class="product-item">
+                            <div class="product-img">
+                                <a href="./menu/pate.html" class="product-thumb">
+                                    <img src="images/banh-snack/1.png" alt="Bánh Mì Que Pate">
+                                </a>
+                                <a href="./menu/pate.html" class="detail">Chi tiết</a>
+                            </div>
+                            <div class="product-infor">
+                                <a href="./menu/pate.html" class="product-name">Bánh Mì Que Pate</a>
+                                <div class="product-price">15.000 VNĐ</div>
+                            </div>
+    
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-item">
+                            <div class="product-img">
+                                <a href="./menu/thitnguoi.html" class="product-thumb">
+                                    <img src="images/banh-snack/2.png" alt="Bánh Mì Việt Nam Thịt Nguội">
+                                </a>
+                                <a href="./menu/thitnguoi.html" class="detail">Chi tiết</a>
+                            </div>
+                            <div class="product-infor">
+                                <a href="./menu/thitnguoi.html" class="product-name">Bánh Mì VN Thịt Nguội</a>
+                                <div class="product-price">35.000 VNĐ</div>
+                            </div>
+    
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-item">
+                            <div class="product-img">
+                                <a href="./menu/chabong.html" class="product-thumb">
+                                    <img src="images/banh-snack/3.png" alt="Chà Bông Phô Mai">
+                                </a>
+                                <a href="./menu/chabong.html" class="detail">Chi tiết</a>
+                            </div>
+                            <div class="product-infor">
+                                <a href="./menu/chabong.html" class="product-name">Chà Bông Phô Mai</a>
+                                <div class="product-price">25.000 VNĐ</div>
+                            </div>
+    
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-item">
+                            <div class="product-img">
+                                <a href="./menu/mochi.html" class="product-thumb">
+                                    <img src="images/banh-snack/4.png" alt="Mochi Kem Phúc Bồn Tử">
+                                </a>
+                                <a href="./menu/mochi.html" class="detail">Chi tiết</a>
+                            </div>
+                            <div class="product-infor">
+                                <a href="./menu/mochi.html" class="product-name">Mochi Kem Phúc Bồn Tử</a>
+                                <div class="product-price">20.000 VNĐ</div>
+                            </div>
+    
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-item">
+                            <div class="product-img">
+                                <a href="./menu/velvet.html" class="product-thumb">
+                                    <img src="images/banh-snack/5.png" alt="Mousse Red Velvet">
+                                </a>
+                                <a href="./menu/velvet.html" class="detail">Chi tiết</a>
+                            </div>
+                            <div class="product-infor">
+                                <a href="./menu/velvet.html" class="product-name">Mousse Red Velvet</a>
+                                <div class="product-price">30.000 VNĐ</div>
+                            </div>
+    
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-item">
+                            <div class="product-img">
+                                <a href="./menu/chocolate.html" class="product-thumb">
+                                    <img src="images/banh-snack/6.png" alt="Mousse Gấu Chocolate">
+                                </a>
+                                <a href="./menu/chocolate.html" class="detail">Chi tiết</a>
+                            </div>
+                            <div class="product-infor">
+                                <a href="./menu/chocolate.html" class="product-name">Mousse Gấu Chocolate</a>
+                                <div class="product-price">40.000 VNĐ</div>
+                            </div>
+    
+                        </div>
+                    </li>
+                            </ul>
+                            <!-- END: Bánh -->
+                            <!-- BEGIN: Snack -->
+                            <div class="headline">
+                    <h3>Snack</h3>
+                            </div>
+                            <ul class="product">
+                    <li>
+                        <div class="product-item">
+                            <div class="product-img">
+                                <a href="./menu/mitsay.html" class="product-thumb">
+                                    <img src="images/banh-snack/s1.png" alt="Mít Sấy">
+                                </a>
+                                <a href="./menu/mitsay.html" class="detail">Chi tiết</a>
+                            </div>
+                            <div class="product-infor">
+                                <a href="./menu/mitsay.html" class="product-name">Mít Sấy</a>
+                                <div class="product-price">20.000 VNĐ</div>
+                            </div>
+    
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-item">
+                            <div class="product-img">
+                                <a href="./menu/gaxelachanh.html" class="product-thumb">
+                                    <img src="images/banh-snack/s2.png" alt="Gà Xé Lá Chanh">
+                                </a>
+                                <a href="./menu/gaxelachanh.html" class="detail">Chi tiết</a>
+                            </div>
+                            <div class="product-infor">
+                                <a href="./menu/gaxelachanh.html" class="product-name">Gà Xé Lá Chanh</a>
+                                <div class="product-price">25.000 VNĐ</div>
+                            </div>
+    
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product-item">
+                            <div class="product-img">
+                                <a href="./menu/khoaitay.html" class="product-thumb">
+                                    <img src="images/banh-snack/s3.png" alt="Khoai Tây Vị Bò Bít Tết">
+                                </a>
+                                <a href="./menu/khoaitay.html" class="detail">Chi tiết</a>
+                            </div>
+                            <div class="product-infor">
+                                <a href="./menu/khoaitay.html" class="product-name">Khoai Tây Vị Bò Bít Tết</a>
+                                <div class="product-price">20.000 VNĐ</div>
+                            </div>
+                        </div>
+                    </li>
+                            </ul>
+                            <!-- END: Snack -->
+                    </div>
+            </div>
+        </div>
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer">        
+                    <div class="social col-5">
+                        <div class="facebook">
+                                <a class="fb" href="#">
+                                    <span class="fa-brands fa-facebook-f"></span>
+                                </a>
+                            </div>
+                            <div class="instagram">
+                                <a class="ins" href="#">
+                                    <span class="fa-brands fa-instagram"></span>
+                                </a>
+                            </div>
+                            <div class="youtube">
+                                <a class="ytb" href="#">
+                                    <span class="fa-brands fa-youtube"></span>
+                                </a>
+                            </div>
+                    </div>
+                    <div class="copyright col-5">© 2022 S.Coffee Allright Reserved</div>
+                        <div class="paperplane col-5">
+                                <a class="register" href="#" >
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                    <span class="icoin-footer" style="margin-left:15px;">  Đăng kí để nhận tin tức sớm nhất</span>
+                                </a>
+                        </div>
+                        <div class="email col-5">
+                            <a class="sendmail" href="#">
+                                <span class="fa-solid fa-envelope" ></span>
+                                <span class="icoin-footer" style="margin-left:15px;">customerservice@scoffee.com</span>
+                            </a>
+                        </div>
+        
+        </div> 
+    </footer>
+</body>
+</html>
