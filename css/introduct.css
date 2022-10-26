@@ -32,8 +32,11 @@ p{
     font-family: "Baron Neue";
 }
 .row{
-    margin-left:16px;
+    margin-left:8px;
     margin-right:8px;
+}
+.col{
+    padding-right:8px;
 }
 img{
     width:100%;
@@ -139,10 +142,19 @@ p.vechungtoi{
     .content__hidden-top{
         display: none;
     }
+    .col{
+        padding-right: 0;
+    }
 }
 @media (min-width:740px) and (max-width:974px) {
     .intro-content h1{
         font-size: 30px;
+    }
+    .row{
+        margin-left:16px;
+    }
+    .col{
+        padding-right: 0;
     }
 }
 @media(max-width:739px) {
