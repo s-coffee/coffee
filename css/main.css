@@ -134,6 +134,12 @@ body{
     line-height: 22px;
     }  
     }
+    @media(max-width:739px) {
+        .row{
+            margin-left:8px;
+            margin-right:8px;
+        }
+    }
     /*MOBILE*/
     @media(max-width:450px) {
     .main__ten{
