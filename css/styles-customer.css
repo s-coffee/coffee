@@ -41,6 +41,16 @@
     letter-spacing: 1px;
     margin-top: 30px;
 }
+.back a{
+    color: #e17055;
+    font-size: 20px;
+}
+.back a:hover{
+    color: #e55039;
+}
+.back{
+    padding: 30px 0;
+}
 @media only screen and (max-width : 328px) and (min-width: 100px){
     .content{
         width: auto;
