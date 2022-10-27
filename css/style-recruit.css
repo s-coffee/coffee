@@ -42,7 +42,7 @@
     font-weight: 500;
     font-size: 20px;
 }
-.main-job p a{
+.main-job p {
     color: #f8c291;
 }
 .m3{
@@ -94,18 +94,32 @@
     margin-top: 15px;
     font-size: 17px;
 }
-.more{
-    border: 1px solid #fff;
-    border-radius: 4px;
-    padding: 10px 25px;
-    margin-bottom: 16px;
-    color: #fff;
+.container3{
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
 }
-.more a{
-    color: #fff;
+.recruit-title{
+    font-size: 35px;
+    color: #febf3e;
+    font-weight: bold;
 }
-.more a:hover{
-    color: rgb(229, 121, 5);
+.recruit-contact{
+    text-align: center;
+}
+.recruit-contact p{
+    color: #fff;
+    font-size: 20px;
+}
+.back a{
+    color: #fad390;
+    font-size: 20px;
+}
+.back a:hover{
+    color: #e55039;
+}
+.back{
+    padding: 30px 0;
 }
 @media only screen and (max-width : 328px) and (min-width: 100px){
     .outstanding{
@@ -168,6 +182,16 @@
     .main-job{
         font-size: 14px;
     }
+    .container3{
+        width: 90%;
+        max-width: 100%;
+    }
+    .recruit-contact p{
+        font-size: 16px;
+    }
+    .back a{
+        font-size: 16px;
+    }
 }
 @media only screen and (min-width: 768px){
     .outstanding{
@@ -198,6 +222,10 @@
     }
     .main-job{
         font-size: 16px;
+    }
+    .container3{
+        width: 80%;
+        max-width: 100%;
     }
 }
 @media only screen and (min-width: 992px){
@@ -230,6 +258,10 @@
     .main-job{
         font-size: 16px;
     }
+    .container3{
+        width: 80%;
+        max-width: 100%;
+    }
 }
 @media only screen and (min-width: 1200px){
     .outstanding{
@@ -260,5 +292,9 @@
     }
     .main-job{
         font-size: 16px;
+    }
+    .container3{
+        width: 80%;
+        max-width: 100%;
     }
 }
