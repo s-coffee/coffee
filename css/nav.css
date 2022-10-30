@@ -128,6 +128,7 @@ a.header__navbar-item-link{
     }
     .header__navbar-mobile-list{
         list-style-type: none;
+        text-align: center;
     }
     .header__navbar-mobile-item{
         margin-top:40px;
