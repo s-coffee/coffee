@@ -78,17 +78,27 @@
                     <label for="book" class="book content__book" href="">Đặt hàng ngay</label>
                     <input type="checkbox" id="book" hidden class="booking">
                 <label for="book" class="nav__overlay"></label>
-                    <div class="display-book">
-                        <form action="">
-                            <input type="text" class="dislay-booking" id="book-ten"  placeholder="Nhập họ tên" required>
-                            <input type="text" class="dislay-booking" id="book-sdt"  placeholder="Nhập số điện thoại" required>
-                            <textarea class="dislay-booking" id="book-diachi" placeholder="Nhập địa chỉ" ></textarea>
-                            <div class="button-book">
-                                <button type="button" class="button-book-b" onclick="alert('Quý khách đã đặt hàng thành công!')"> Xác nhận đặt hàng</button>
-                                <label for="book" class="button-book-l">Quay lại</label>
-                            </div>
-                        </form>
-                    </div>
+                <div class="display-book">
+                    <form action="" id="form-1" class="form">
+                        <div class="form-group">
+                            <input type="text" name="book-ten" rules="required" class="dislay-booking" id="book-ten"  placeholder="Nhập họ tên" required>
+                            <span class="form-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="book-sdt" rules="required|phone" class="dislay-booking" id="book-sdt"  placeholder="Nhập số điện thoại" required>
+                            <span class="form-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="dislay-booking" name="book-diachi" rules="required" id="book-diachi" placeholder="Nhập địa chỉ" ></textarea>
+                            <span class="form-message"></span>
+                        </div>
+                        
+                        <div class="button-book">
+                            <button  class="button-book-b"> Xác nhận đặt hàng</button>
+                            <label for="book" class="button-book-l">Quay lại</label>
+                        </div>
+                    </form>
+                </div>
                 </div>
                 </div>  
                      <!--end book-->      
@@ -134,5 +144,9 @@
     
     </div> 
 </footer>
+<script src="../js/validator.js"></script>
+    <script>
+        Validator('#form-1');
+    </script>
 </body>
 </html>
