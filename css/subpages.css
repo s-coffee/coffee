@@ -193,9 +193,7 @@ animation: fadeIn linear 0.2s;
 textarea{
     height:80px;
 }
-
-#book-diachi
-.content__product{
+.content__product-end{
     border-top: 1px solid rgb(10, 192, 10);
     border-bottom: 1px solid rgb(10, 192, 10);
     font-weight: 600;
@@ -289,4 +287,8 @@ a.content__nav-caphe{
     .content__nav a{
         font-size: 16px;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1afb362956bb98f21e79d16fd8e945862dbca2ba

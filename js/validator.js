@@ -24,6 +24,10 @@ function Validator(formSelector){
         required: function (value){
             return value ? undefined : 'Vui lòng nhập lại';
         },
+        name: function (value){
+            var regex=/^[\p{L}'][ \p{L}'-]*[\p{L}]$/u;
+            return regex.test(value.trim()) ? undefined : 'Vui lòng nhập đúng họ tên'
+        },
         phone: function (value){
             var regex= /\b0[0-9]{9,10}\b/;
             return regex.test(value) ? undefined : 'Vui lòng nhập đúng số điện thoại'
@@ -114,6 +118,4 @@ function Validator(formSelector){
         alert('Quý khách đã đặt hàng thành công!');
     }
     }
-
-    
 }
