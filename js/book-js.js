@@ -1,5 +1,6 @@
 var regex= /\b0[0-9]{9,10}\b/;
 var re=/\b[0-9]\b/;
+var n= /^[A-Za-z]{1,70}$/;
 var e= /^([\w-]+(\?\:\.[w-]+)*)@((\?\:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(\?\:\.[a-z]{2})?)$/
 function checknull(txt){
     if(txt.value.length==0)
@@ -29,8 +30,9 @@ function validform(f){
         f.people.focus();
         return;
     }
-    if(checknull(f.fullname)){
+    if(!StringMath(f.fullname, n)){
         alert("Mời nhập lại họ tên!");
+        f.fullname.value();
         f.fullname.focus();
         return;
     }
