@@ -1,0 +1,153 @@
+.content{
+    text-align: center;
+    margin: 0 auto;
+    width: auto;
+    background-color: rgb(78,60,46);
+}
+.container .img img{
+    width: 1200px;
+    border: 0px solid rgb(78,60,46);
+    border-radius: 8px;
+}
+.container{
+    padding: 30px 0;
+}
+.img{
+    margin-top: 58px;
+}
+.content-main{
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: left;
+}
+.subtitle1{
+    display: block;
+    font-family: 'Baron Neue';
+    font-size: 24px;
+    color: #febf3e;
+    margin: 0 0 20px 0;
+}
+.sub-title1 span{
+    font-size: 35px;
+    color: #febf3e;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub{
+    color: #fff;
+    font-size: 17px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-top: 30px;
+}
+.back a{
+    color: #e17055;
+    font-size: 20px;
+}
+.back a:hover{
+    color: #e55039;
+}
+.back{
+    padding: 30px 0;
+}
+@media only screen and (max-width : 328px) and (min-width: 100px){
+    .container .img img{
+        width: 100%;
+    }
+    .content-main{
+        width: 100%;
+    }
+    .sub-title1{
+        padding: 0 15px;
+    }
+    .subtitle1{
+        padding: 0 15px;
+    }
+    .img{
+        padding: 15px;
+    }
+    .sub{
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width : 500px) and (min-width: 328px){
+    .container .img img{
+        width: 100%;
+    }
+    .content-main{
+        width: 100%;
+    }
+    .sub-title1{
+        padding: 0 15px;
+    }
+    .subtitle1{
+        padding: 0 15px;
+    }
+    .img{
+        padding: 15px;
+    }
+}
+@media only screen and (max-width : 768px) and (min-width: 500px){
+    .container .img img{
+        width: 100%;
+    }
+    .content-main{
+        width: 100%;
+    }
+    .sub-title1{
+        padding: 0 15px;
+    }
+    .subtitle1{
+        padding: 0 15px;
+    }
+    .img{
+        padding: 15px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .container .img img{
+        width: 100%;
+    }
+    .content-main{
+        width: 100%;
+    }
+    .sub-title1{
+        padding: 0 15px;
+    }
+    .subtitle1{
+        padding: 0 15px;
+    }
+    .img{
+        padding: 15px;
+    }
+}
+@media only screen and (min-width: 992px){
+    .container .img img{
+        width: 100%;
+    }
+    .content-main{
+        width: 100%;
+    }
+    .sub-title1{
+        padding: 0 15px;
+    }
+    .subtitle1{
+        padding: 0 15px;
+    }
+    .img{
+        padding: 15px;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .container .img img{
+        width: 1100px;
+    }
+    .content-main{
+        width: 1100px;
+    }
+}

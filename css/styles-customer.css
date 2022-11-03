@@ -1,0 +1,198 @@
+.content{
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(78,60,46);
+    width: auto;
+}
+.img{
+    position: relative;
+}
+.img img{
+    border: none;
+    max-width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+.content-main{
+    width: 1200px;
+    margin: 0 auto;
+}
+.about-service2{
+    text-align: left;
+}
+.subtitle1{
+    font-family: 'Baron Neue';
+    font-size: 24px;
+    color: #febf3e;
+}
+.about-service2 h1{
+    font-size: 35px;
+    color: #febf3e;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.about-service2 p{
+    color: #fff;
+    font-size: 17px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+.back a{
+    color: #e17055;
+    font-size: 20px;
+}
+.back a:hover{
+    color: #e55039;
+}
+.back{
+    padding: 30px 0;
+}
+@media only screen and (max-width : 328px) and (min-width: 100px){
+    .content{
+        width: auto;
+        margin: 0 auto;
+    }
+    .img{
+
+    }
+    .img img{
+
+    }
+    .content-main{
+        width: 100%;
+    }
+    .about-service2{
+        width: 95%;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    .subtitle1{
+
+    }
+    .about-service2 h1{
+
+    }
+    .about-service2 p{
+        font-size: 12px;
+        
+    }
+}
+@media only screen and (max-width : 768px) and (min-width: 328px){
+    .content{
+        width: auto;
+        margin: 0 auto;
+    }
+    .img{
+
+    }
+    .img img{
+
+    }
+    .content-main{
+        width: 95%;
+    }
+    .about-service2{
+        width: 95%;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    .subtitle1{
+
+    }
+    .about-service2 h1{
+
+    }
+    .about-service2 p{
+        font-size: 15px;
+        
+    }
+}
+@media only screen and (min-width: 768px){
+    .content{
+        width: auto;
+        margin: 0 auto;
+    }
+    .img{
+
+    }
+    .img img{
+
+    }
+    .content-main{
+        width: 100%;
+    }
+    .about-service2{
+        width: 95%;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    .subtitle1{
+
+    }
+    .about-service2 h1{
+
+    }
+    .about-service2 p{
+
+    }
+}
+@media only screen and (min-width: 992px){
+    .content{
+        width: auto;
+        margin: 0 auto;
+    }
+    .img{
+
+    }
+    .img img{
+
+    }
+    .content-main{
+        width: 100%;
+    }
+    .about-service2{
+        width: 95%;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    .subtitle1{
+
+    }
+    .about-service2 h1{
+
+    }
+    .about-service2 p{
+
+    }
+}
+@media only screen and (min-width: 1200px){
+    .content{
+        width: auto;
+        margin: 0 auto;
+    }
+    .img{
+
+    }
+    .img img{
+
+    }
+    .content-main{
+        width: 1200px;
+    }
+    .about-service2{
+        width: 1200px;
+    }
+    .subtitle1{
+
+    }
+    .about-service2 h1{
+
+    }
+    .about-service2 p{
+
+    }
+}
